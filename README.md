@@ -1,10 +1,11 @@
-# Project Title
+# Find the closest city to International Space Station
 
-One Paragraph of project description goes here
+It is fun quiz game built on blockchain.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Game shows users the current location of ISS by giving latitude and logitude coordinates. It expects users to send the closest city name back to the smart contract.
+Fastest responding users get 1 "Geographer" token as a reward. 
 
 ### Prerequisites
 
