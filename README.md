@@ -1,88 +1,26 @@
 # Find the closest city to International Space Station
 
-It is fun quiz game built on blockchain.
+It is fun game built on ethereum blockchain.
 
 ## Getting Started
 
-Game shows users the current location of ISS by giving latitude and logitude coordinates. It expects users to send the closest city name back to the smart contract.
-Fastest responding users get 1 "Geographer" token as a reward. 
+This is blockchain based fun game. 
 
-### Prerequisites
+Game starts with sending users the current location of ISS by giving latitude and longitude coordinates. Game expects users to send the closest city name to that geographical area back to the smart contract. Fastest responders get 1 "Great Geographer" token as a reward. 
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Solidity scripts can be used to deploy smart contracts in ethereum testnets.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Or user can build more interesting applications on top of this.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Brownie](https://eth-brownie.readthedocs.io/en/stable/) - The smart contract development framework used
+* [Python](https://python.org/) - Python
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+[navruz](https://github.com/navruzbek1992)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
