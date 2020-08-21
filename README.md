@@ -14,6 +14,7 @@ Users can submit answer by calling sendAnswer(area_code). Area code should be IS
 If the ISS is close to some area of some country but that area is not close to cities user should submit 'nc'.
 
 Contract checks and rewards users by sending 1000 "GeographyGeniusToken". It is ERC20 token and could be send to other users as well.
+I will upload the ERC721 token based modification soon.
 
 Contracts are in .sol files. And contract updaters and markerers are in .py files.
 
