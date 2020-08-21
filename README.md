@@ -17,8 +17,9 @@ Contract checks and rewards users by sending 1000 "GeographyGeniusToken". It is 
 
 Contracts are in .sol files. And contract updaters and markerers are in .py files.
 
-Anyone can test and use this in local environment.
-User needs brownie framawork. After installing the brownie, create a new folder and run from that folder 
+User needs the brownie framework to build more interesting apps on top of this. 
+
+After installing the brownie, create a new folder and run from that folder 
 
 ```bash
 brownie init
