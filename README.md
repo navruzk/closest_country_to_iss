@@ -6,13 +6,40 @@ It is fun game built on ethereum blockchain.
 
 This is blockchain based fun game. 
 
-Game starts with sending users the current location of ISS by giving latitude and longitude coordinates. Game expects users to send the closest city name to that geographical area back to the smart contract. Fastest responders get 1 "Great Geographer" token as a reward. 
+Game starts with users sending the name of location on earth that is the closest to ISS.
+Users can view latitude and longitude of ISS by calling viewLongitude() and viewLatitude() functions of the contract.
+They are view functions so no trasactions happen and users will not spend test ether.
 
+Users can submit answer by calling sendAnswer(area_code). Area code should be ISO 3166 2 letter code. 
+Contract checks and rewards users by sending 1000 "GeographyGeniusToken". It is ERC20 token and could be send to other users as well.
+
+Contracts are in .sol files. And contract updaters and markerers are in .py files.
+
+Anyone can test and use this in local environment.
+User needs brownie framawork. After installing the brownie, create a new folder and run from that folder 
+
+```bash
+brownie init
+```
+
+The code above creates a new project. Move .sol files from this repo to contract folder in that new project folder. 
+Move .py files from this repo to scripts folder in that new project folder.
+
+Now user needs to compile .sol files.
+
+```bash
+brownie compile
+```
+
+Now brownie console could be open for development.
+
+```bash
+brownie console
+```
 
 ### Installing
 
-Solidity scripts can be used to deploy smart contracts in ethereum testnets.
-
+Solidity scripts (.sol) can be used to deploy smart contracts in ethereum testnets.
 Or user can build more interesting applications on top of this.
 
 ## Built With
