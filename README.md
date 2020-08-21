@@ -1,4 +1,4 @@
-# Find the closest country to International Space Station
+# Find the closest country to the International Space Station
 
 It is fun game built on ethereum blockchain.
 
