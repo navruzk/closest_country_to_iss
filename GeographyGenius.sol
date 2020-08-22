@@ -62,7 +62,7 @@ contract GeographyGenius is Ownable {
     return submissionInfo[_id]._address;
   }
 
-  function getSubmissionInfo_answer(uint256 _id) public view onlyOwner returns (string _id){
+  function getSubmissionInfo_answer(uint256 _id) public view onlyOwner returns (string _answer){
     return submissionInfo[_id]._answer;
   }
 
