@@ -31,3 +31,4 @@ Solidity scripts (.sol) can be used to deploy smart contracts in ethereum testne
 
 [navruz](https://github.com/navruzbek1992)
 
+P.S. Currently being developed to deploy on matic. 
